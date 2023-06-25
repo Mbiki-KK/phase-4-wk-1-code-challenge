@@ -15,3 +15,13 @@ require 'faker'
     address: Faker::Address.full_address
   )
 end
+
+# require 'faker'
+
+10.times do
+  Pizza.create(
+    name: Faker::Food.dish,
+    ingredients: Faker::Food.ingredient
+  )
+end
+

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :restaurant
-  resources :pizza
-  resources :restaurant_pizza
+  resources :restaurants
+  resources :pizzas
+  resources :restaurant_pizzas
 end
